@@ -1,0 +1,37 @@
+.container {
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.description {
+    text-align: justify;
+}
+
+.list {
+padding: 0.5rem 2.5rem;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}

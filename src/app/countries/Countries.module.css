@@ -1,0 +1,42 @@
+.container {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonReset {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.scrollTopButton {
+    margin: 40px auto 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
