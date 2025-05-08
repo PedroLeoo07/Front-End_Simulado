@@ -39,4 +39,8 @@
     border: none;
     border-radius: 8px;
 }
-
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,12 +1,12 @@
-"use client";
-
 import React from "react";
 import styles from "../../styles/Home.module.css";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
     return (
         <div className={styles.container}>
-            <img className={styles.image} src="/images/maiko.png" alt="Maiko Xikixiki" />
+            <Image className={styles.image} src="/images/maiko.png" alt="Maiko Xikixiki" width={300} height={300}/>
             <h1 className={styles.title}> Maiko Xikixiki Bahia</h1>
             <div className={styles.description}>
                 <p>Tá perdido no código? Relaxa e vem de Maiko, que vamos te mostrar a usar:</p>
@@ -24,9 +24,9 @@ export default function Home() {
                     <li>Skeleton</li>
                 </ul>
             </div>
-           <link rel="stylesheet" href="/countries" />
-                <button className={styles.button}>Acessar Países</button>
-                <link/>
+            <Link href="/countries">
+            <button className={styles.button}>Acessar Países</button>
+            </Link>
         </div>
     );
 }
